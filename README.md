@@ -23,7 +23,7 @@ $$ \pi = 4 * \frac{ N^\circ \text{points inside of the circle}}{\text{Total $N^\
 
 ## Code
 
-In this example exist two implementations of the algorithm, pure python and a numpy implementation.
+In this example exist three implementations of the algorithm, pure python, numba and numpy implementation.
 
 In order to run the examples first you have to install requirements.
 
@@ -31,7 +31,7 @@ In order to run the examples first you have to install requirements.
 pip install -r requirements.txt
 ```
 
-Then you can run the main file to get the execution time of both methods (pure python and numpy).
+Then you can run the main file to get the execution time of the methods.
 
 ```bash
 python main.py
