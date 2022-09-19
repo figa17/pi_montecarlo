@@ -1,5 +1,6 @@
 # Estimate Pi with Montecarlo
 
+## Introduction 
 Estimating the value of Pi $\pi$ with the Monte Carlo method is a common algorithm in computer science.
 
 The idea of this algorithm is take a great number of random points in a square of side $2r$ centered on (0,0). Then put a circle with radius $r$ inscribed into the square. With that calculate the ratio of number points that lied inside the circle and total number of random points generated.
@@ -20,5 +21,18 @@ Finally:
 $$ \pi = 4 * \frac{ N^\circ \text{points inside of the circle}}{\text{Total $N^\circ$ points}}$$
 
 
+## Code
 
+In this example exist two implementations of the algorithm, pure python and a numpy implementation.
 
+In order to run the examples first you have to install requirements.
+
+```bash
+pip install -r requirements.txt
+```
+
+Then you can run the main file to get the execution time of both methods (pure python and numpy).
+
+```bash
+python main.py
+```
