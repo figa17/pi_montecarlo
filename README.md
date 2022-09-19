@@ -1,7 +1,7 @@
 # Estimate Pi with Montecarlo
 
 ## Introduction 
-Estimating the value of Pi $\pi$ with the Monte Carlo method is a common algorithm in computer science.
+Estimating the value of Pi $\pi$ with the Montecarlo method is a common algorithm in computer science.
 
 The idea of this algorithm is take a great number of random points in a square of side $2r$ centered on (0,0). Then put a circle with radius $r$ inscribed into the square. With that calculate the ratio of number points that lied inside the circle and total number of random points generated.
 
